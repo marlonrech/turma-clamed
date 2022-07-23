@@ -133,3 +133,23 @@ game.anoDeLancamento = 2020;
 game.tamanho = "9GB";
 
 console.log("Depois ", game);
+
+//========================================================================
+//CONSTRUCTOR
+
+class Pessoa {
+  nome;
+  idade;
+  cpf;
+  cnh;
+
+  constructor(nome, idade, cpf, cnh) {
+    this.nome = nome;
+    this.idade = idade;
+    this.cpf = cpf;
+    this.cnh = cnh;
+  }
+}
+
+const alunoSenai = new Pessoa("Fernando", 24, "123456789", "");
+console.log(alunoSenai);
